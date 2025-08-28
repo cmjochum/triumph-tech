@@ -182,14 +182,12 @@ h5 {
   }
 }
 
-/* Initial state */
 .animate-on-scroll {
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
-/* Active state when scrolled into view */
 .animate-on-scroll.visible {
   opacity: 1;
   transform: translateY(0);
