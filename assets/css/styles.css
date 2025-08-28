@@ -370,7 +370,8 @@ header {
       font-weight: 700;
       color: var(--body-color);
 
-      &:hover {
+      &:hover,
+      &:active {
         color: white;
         background-color: rgba(255, 255, 255, 0.3);
         border: 1px solid rgba(255, 255, 255, 0.4);
@@ -565,6 +566,7 @@ header {
       font-weight: 400;
       font-size: 16px;
       line-height: 24px;
+      text-align: center;
     }
   }
 
@@ -573,6 +575,7 @@ header {
     font-size: 18px;
     line-height: 24px;
     color: #eb3300;
+    text-align: center;
     text-decoration: none;
     border: 0 solid transparent;
     border-bottom-width: 2px;
