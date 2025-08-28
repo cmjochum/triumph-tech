@@ -209,7 +209,7 @@ header {
     background-filter: blur(120px);
     -webkit-backdrop-filter: blur(120px);
     border-radius: 100px;
-    padding: var(--spacer) * 0.5;
+    padding: calc(var(--spacer) * 0.5);
     border: 1px solid rgba(255, 255, 255, 0.2);
 
     .navbar-nav {
@@ -276,7 +276,7 @@ header {
   .navbar {
     padding: 0 var(--gutter-x);
 
-    @media (min-width: 1200px) {
+    @media (min-width: 1500px) {
       padding: var(--gutter-x) calc(var(--gutter-x) * 2.75) !important;
     }
   }
